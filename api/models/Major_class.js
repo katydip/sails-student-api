@@ -15,11 +15,13 @@ module.exports = {
     },
     major_id: {
       type: "integer",
-      maxLength: 10
+      maxLength: 10,
+      model: 'major'
     },
     class_id: {
       type: 'integer',
-      maxLength: 10
+      maxLength: 10,
+      model: 'class'
     }
 
   },

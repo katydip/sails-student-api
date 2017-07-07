@@ -15,7 +15,8 @@ module.exports = {
       },
       student_id: {
         type: "integer",
-        maxLength: 10
+        maxLength: 10,
+        model: 'student'
       },
       assignment_nbr: {
         type: "integer",
@@ -23,11 +24,13 @@ module.exports = {
       },
       grade_id: {
         type: "integer",
-        maxLength: 10
+        maxLength: 10,
+        model: 'grade'
       },
       class_id: {
         type: "integer",
-        maxLength: 10
+        maxLength: 10,
+        model: 'class'
       }
     },
     autoPK: false

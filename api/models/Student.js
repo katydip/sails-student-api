@@ -32,7 +32,8 @@ module.exports = {
     },
     major_id: {
       type: 'integer',
-      maxLength: 10
+      maxLength: 10,
+      model: 'major'
     },
     start_date: {
       type: 'date'

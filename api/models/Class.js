@@ -15,7 +15,8 @@ module.exports = {
     },
     instructor_id: {
       type: "integer",
-      maxLength: 10
+      maxLength: 10,
+      model: 'instructor'
     },
     subject: {
       type: "string",
